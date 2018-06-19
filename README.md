@@ -1,5 +1,6 @@
 ## 搜索网站的爬虫  
 拉钩职位- 北京爬虫（lagou_position）  
+从m.lagou 请求ajax接口  
 拉钩这个职位详情必须要用代理ip，否则只返回第一页数据。阿布云代理效果很好，价格也贵  
 请求还要带上 "Referer": "http://m.lagou.com/search.html"  
 
