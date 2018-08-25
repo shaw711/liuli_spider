@@ -20,8 +20,8 @@ class RandomProxyMiddleware(object):
         proxyPort = "9020"
 
         # 代理隧道验证信息
-        proxyUser = "H558U733016U401D"
-        proxyPass = "BB3E5D80A784DDAA"
+        proxyUser = "xxxxxxxxxxxxxxxx"
+        proxyPass = "xxxxxxxxxxxxx"
 
         proxyMeta = "http://%(user)s:%(pass)s@%(host)s:%(port)s" % {
             "host": proxyHost,
